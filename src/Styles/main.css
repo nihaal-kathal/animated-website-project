@@ -1,0 +1,435 @@
+.borderClass {
+  border: 2px solid red;
+}
+.mainContainer {
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  background-color: var(--color-background);
+}
+.mainContainer::-webkit-scrollbar {
+  width: 0.1%;
+}
+.mainContainer::-webkit-scrollbar-track {
+  background: #f1f1f1ab;
+}
+.mainContainer::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.103);
+  border-radius: 12px;
+  opacity: 0.6;
+}
+.mainContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mainContainer1 {
+  height: 91vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.experimentImage {
+  margin-top: 22vh;
+  width: 65vh;
+  height: 65vh;
+}
+.experimentImage1 {
+  margin-top: 20vh;
+  margin-right: 1vw;
+  width: 35vh;
+  height: 35vh;
+}
+.experimentImage2 {
+  margin-top: 20vh;
+  margin-left: 1vw;
+  width: 35vh;
+  height: 35vh;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"); */
+.mainContainer1Heading {
+  font-size: 15vh;
+  position: relative;
+  top: -56vh;
+  text-align: left;
+  padding-left: 11vw;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--color-text);
+  /* font-weight: 600; */
+  line-height: 16vh;
+}
+.brandHighlight {
+  color: var(--color-primary);
+  /* font-weight: 600; */
+}
+.brandLineMainPage {
+  font-size: 3vh;
+  position: relative;
+  top: -66vh;
+  right: -68vw;
+  text-align: left;
+  box-sizing: border-box;
+  width: 20vw;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: var(--color-text);
+  /* color: var(--color-primary); */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sarabun&display=swap");
+.mainContainer2 {
+  width: 100%;
+  height: 68vh;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+}
+.brandParaContainer {
+  /* border: 2px solid red; */
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.brandPara {
+  font-size: 3.2vh;
+  width: 80%;
+  /* height: 60%; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #83828241; */
+  font-family: "Montserrat", sans-serif;
+  border-radius: 12px;
+  padding: 4% 4%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+.brandParaHeading {
+  font-size: 9vh;
+  margin-bottom: 3vh;
+  font-weight: bolder;
+  text-align: left;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Licorice", cursive;
+  /* color: #dadada; */
+  /* color: #ff8c28; */
+  color: #272727;
+}
+.servicesContainer1 {
+  width: 100%;
+  height: 140vh;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  background-color: var(--color-background);
+  padding: 2%;
+  padding-top: 6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.servicesTitle {
+  color: var(--color-text);
+  font-size: 15vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  /* font-family: "Roboto", sans-serif; */
+  text-align: left;
+  padding-top: 20vh;
+}
+.servicesEachContainer {
+  /* border: 2px solid white; */
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.servicesEach {
+  width: 28%;
+  height: 28%;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+  background-color: rgba(112, 112, 112, 0.144);
+  padding: 0px 2%;
+  border-radius: 23px;
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.5vh;
+}
+.servicesEachIcon {
+  width: 27%;
+  margin-bottom: 4%;
+  height: 27%;
+}
+.servicesEachIcon1 {
+  width: 23.5%;
+  margin-bottom: 4%;
+  height: 23.5%;
+}
+.servicesEachLine {
+  margin-top: 5%;
+  color: var(--color-text);
+  font-size: 2vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+.valuesContainer {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--color-background);
+  padding: 2%;
+  padding-top: 9vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.valuesEachContainer {
+  /* border: 2px solid red; */
+  margin-right: 6vw;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* background-color: #2727270e; */
+}
+.valuesEach {
+  font-size: 3vh;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-weight: 600; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 3vw;
+  color: var(--color-text);
+}
+.valuesEach img {
+  height: 8vh;
+  margin-right: 1.5vw;
+}
+.valuesTitle {
+  color: var(--color-text);
+  font-size: 18vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  /* font-family: "Roboto", sans-serif; */
+  text-align: left;
+  padding-right: 11vw;
+  padding-top: 24vh;
+}
+.contactContainer {
+  height: 100vh;
+  width: 100%;
+  padding-top: 4vh;
+  background-color: var(--color-background);
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.contactTitle {
+  color: var(--color-text);
+  font-size: 14vh;
+  padding-left: 5vw;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 25vh;
+  padding-right: 4vw;
+}
+.errorMssgBox {
+  position: fixed;
+  top: 10vh;
+  right: 2vw;
+  align-items: center;
+  justify-content: center;
+  height: 6.3vh;
+  padding: 0px 3%;
+  font-size: 2.2vh;
+  display: flex;
+  color: crimson;
+  background-color: rgb(241, 241, 241);
+  border-radius: 12px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.successMssg {
+  color: rgb(5, 151, 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.successMssgIcon {
+  margin-right: 5px;
+  margin-bottom: 1px;
+}
+.contactFormContainer {
+  /* border: 2px solid white; */
+  flex: 1;
+  padding-top: 2.4%;
+  padding-bottom: 3%;
+}
+.contactFormContainer::-webkit-scrollbar {
+  width: 1%;
+}
+.contactFormContainer::-webkit-scrollbar-track {
+  background: #f1f1f1ab;
+}
+.contactFormContainer::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.808);
+  border-radius: 12px;
+  opacity: 0.6;
+}
+.contactFormContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.contactFormContainerEach {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background-color: #d4d4d4c7; */
+  /* border: 2px solid white; */
+  width: 75%;
+  margin-left: 4%;
+}
+.contactFormContainerEach label {
+  color: var(--color-text);
+  margin: 2%;
+  font-family: "Josefin Sans", sans-serif;
+}
+.getintouchtextarea {
+  border: none;
+  outline: none;
+  border: 1px solid var(--color-text);
+  border-radius: 6px;
+  background-color: var(--color-background);
+  width: 100%;
+  box-sizing: border-box;
+  height: 6.5vh;
+  padding: 1.5vh;
+  margin-left: 2%;
+  color: var(--color-text);
+  font-size: 2.4vh;
+}
+.getintouchtextareaAdditional {
+  height: 17vh;
+}
+.submitButtonContainer {
+  width: 75%;
+  margin-left: 5%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SubmitButton {
+  background-color: var(--color-primary);
+  border-radius: 6px;
+  color: #eef7f1;
+  padding: 1.2%;
+  width: 16%;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+}
+.submitButtonContainer img {
+  width: 8%;
+}
+.footer {
+  height: 40vh;
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: var(--color-background); */
+  background-color: #d3d3d3;
+}
+.footer1 {
+  height: 85%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.footer1firstdiv {
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2% 3.5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--color-text);
+}
+.brandLogofooter {
+  height: 5vh;
+  margin-bottom: 3vh;
+}
+.footer1seconddiv {
+  width: 40%;
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer1seconddiv1 {
+  font-size: 3vh;
+  margin-bottom: 2vh;
+  color: var(--color-text);
+}
+.footer1seconddiv2 {
+  font-size: 4vh;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.footer1thirddiv {
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 4.5%;
+}
+.footer1thirddivEach {
+  margin: 1vh 1vw;
+}
+.footer1thirddivEachIcon {
+  font-size: 5vh;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.footer1thirddivEachIcon:hover {
+  color: var(--color-primary);
+}
+.footer2 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 2vh;
+  font-family: "Josefin Sans", sans-serif;
+}
